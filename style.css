@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-clr-blackgrey: #121212;
+    --primary-clr-green: #1db954;
+    --primary-clr-darkgrey: #535353;
+    --primary-clr-grey: #b3b3b3;
+}
+
+body {
+    display: flex;
+    flex-direction: 
+    font-family: Roboto;
+    background-color: black;
+}
+
+.your-things-top {
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--primary-clr-blackgrey);
+}
+
+.your-things-top button {
+    color: var(--primary-clr-grey);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+    border: none;
+    padding: 1rem;
+}
+
+.your-things-top button:hover {
+    color: white;
+}
